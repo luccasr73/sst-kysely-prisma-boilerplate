@@ -1,9 +1,10 @@
 # sst-kysely-prisma-boilerplate
 
-## requirements
-Node 16.x
-NPM 9.x
-Recommendation: use [https://volta.sh/](Volta) NODE and NPM version are pinned on package.json
+## Requirements
+- Node 16.x
+- NPM 9.x
+
+Recommendation: use [Volta](https://volta.sh/), NODE and NPM versions are pinned on package.json
 
 ## Running Prisma
 - create a `.env.dev` inside `src/packages/prisma` and add `DATABASE_URL`
