@@ -1,0 +1,19 @@
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+generator kysely {
+    provider  = "prisma-kysely"
+    output    = "../types"
+    fileName  = "types.ts"
+    camelCase = true
+}
+
+model User {
+    id    Int    @id @default(autoincrement())
+    email String @unique
+    name  String
+
+    @@map("user")
+}

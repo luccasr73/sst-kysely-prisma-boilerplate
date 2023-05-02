@@ -1,0 +1,25 @@
+{
+  "name": "@sst-kysely-prisma-boilerplate/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@types/aws-lambda": "^8.10.114",
+    "sst": "^2.7.2"
+  },
+  "dependencies": {
+    "@middy/core": "^4.4.0",
+    "@middy/error-logger": "^4.4.0",
+    "@middy/http-error-handler": "^4.4.0",
+    "@middy/http-event-normalizer": "^4.4.0",
+    "@middy/http-header-normalizer": "^4.4.0",
+    "@middy/http-json-body-parser": "^4.4.0",
+    "@middy/http-response-serializer": "^4.4.0",
+    "@middy/http-security-headers": "^4.4.0",
+    "@middy/util": "^4.4.0"
+  }
+}

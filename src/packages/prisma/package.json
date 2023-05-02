@@ -1,0 +1,15 @@
+{
+  "name": "@sst-kysely-prisma-boilerplate/prisma",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "db:push:dev": "dotenv -e .env.dev -- prisma db push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^4.13.0",
+    "prisma-kysely": "^1.2.0"
+  }
+}
