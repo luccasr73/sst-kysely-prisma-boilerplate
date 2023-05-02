@@ -7,8 +7,8 @@
     "typecheck": "tsc -noEmit"
   },
   "devDependencies": {
-    "@types/node": "^18.16.3",
     "@types/aws-lambda": "^8.10.114",
+    "@types/node": "^18.16.3",
     "sst": "^2.7.2"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "@middy/http-json-body-parser": "^4.4.0",
     "@middy/http-response-serializer": "^4.4.0",
     "@middy/http-security-headers": "^4.4.0",
-    "@middy/util": "^4.4.0"
+    "@middy/util": "^4.4.0",
+    "@sst-kysely-prisma-boilerplate/core": "^0.0.0"
   }
 }
