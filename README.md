@@ -4,7 +4,7 @@
 - Node 16.x
 - NPM 9.x
 
-Recommendation: use [Volta](https://volta.sh/), NODE and NPM versions are pinned on package.json
+Recommendation: NODE and NPM versions are pinned on package.json, use [Volta](https://volta.sh/)
 
 ## Running Prisma
 - create a `.env.dev` inside `src/packages/prisma` and add `DATABASE_URL`
