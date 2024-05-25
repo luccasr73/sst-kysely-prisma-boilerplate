@@ -1,5 +1,5 @@
 # sst-kysely-prisma-boilerplate
-
+An opinated boilerplate to fast start serverless apps using SST
 ## Requirements
 - Node 16.x
 - NPM 9.x
